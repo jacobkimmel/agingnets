@@ -12,3 +12,7 @@ convert_output <- function(dir, dataset){
   write.table(df, file = filename, quote = FALSE, sep = "\t", row.names = FALSE)
   
 }
+
+for (file in list.files("raw_pascal/")){
+  convert_output('raw_pascal/', file)
+}
