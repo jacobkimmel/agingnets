@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(stringr)\n\n# Import a single Pascal pathway analysis output\n# Plots p-values on a histogram and exports sig. enriched\n# pathways as a list to enriched/\nprocessPascal <- function(data_file){\n  df <- read.table(data_file, stringsAsFactors = FALSE)\n  names(df) <- df[1,]\n  df <- df[-c(1),]\n  df$chi2Pvalue <- as.numeric(df$chi2Pvalue)\n  df$empPvalue <- as.numeric(df$empPvalue)\n  # Sort based on each statistical mode\n  df.chi2sort <- df[order(df[,2]),]\n  df.empsort <- df[order(df[,3]),]\n  \n  # Plot histogram of chi-squared p-vals\n  require(ggplot2)\n  data_set_name <- str_sub(data_file, 6, -10)\n  filename <- paste('plots/', data_set_name, '_', 'ChiSq_Freq_Dist.png', sep = '')\n  png(filename, width = 7, height = 5, units = 'in', res = 300)\n  print(\n    ggplot(data=df, aes(df$chi2Pvalue)) + geom_histogram() + labs(x='Chi-squared p-value', y='Frequency', title='Pathway Analysis P-value distribution')\n    \n  )\n  dev.off()\n  \n  # Determine which pathways are significantly enriched\n  num_enriched <- length(which(df.chi2sort$chi2Pvalue<0.05))\n  enriched <- df.chi2sort[1:num_enriched,1]\n  filename <- paste('enriched/', data_set_name, '_', 'EnrichedPaths.txt', sep = '')\n  write(enriched, file = filename, sep = ',')\n}\n\n# Runs processPascal in batch on all Pascal outputs in the data/ directory\nbatchprocess <- function(data_dir) {\n  filenames <- list.files(data_dir, pattern = \"*REACTOME--sum.txt\", full.names = TRUE)\n  res <- lapply(filenames, processPascal)\n  return(enriched_pathways)\n}\n\n# Counts how many Pascal outputs identify a given pathway as enriched\n# Exports results as a table in the enriched directory \nrich_paths <- function(enriched_dir){\n  filenames <- list.files(enriched_dir, pattern = '*.txt', full.names = TRUE)\n  for (file in filenames){\n    \n    # if the merged dataset doesn't exist, create it\n    if (!exists(\"dataset\")){\n      dataset <- read.table(file, header=FALSE, sep=\"\\t\")\n    }\n    \n    # if the merged dataset does exist, append to it\n    if (exists(\"dataset\")){\n      temp_dataset <-read.table(file, header=FALSE, sep=\"\\t\")\n      dataset<-rbind(dataset, temp_dataset)\n      rm(temp_dataset)\n    }\n    \n  }\n  # Vectorize rownames and values, coerce into a data.frame, write to table \n  c1 <- rownames( sort( table( unlist(dataset)), decreasing = TRUE ) )\n  c2 <- sort(table(unlist(enriched_paths)), decreasing = TRUE)\n  return_table <- cbind( as.vector(c1), as.vector(c2) )\n  write.table(return_table, file = 'enriched/EnrichedPathwaysGlobal.csv', sep = ',', col.names = FALSE, quote = FALSE)\n}\n\n",
+    "created" : 1459557106368.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1663424252",
+    "id" : "2C477BB9",
+    "lastKnownWriteTime" : 1459802939,
+    "last_content_update" : 1459802939145,
+    "path" : "~/Dropbox/Docs/Research/01 Verdin Lab/GWAS/Aging Gene Associations/pascal_processing.R",
+    "project_path" : "pascal_processing.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,3 @@
+# GWAS = phs000007.pha001970.sum.genescores
+Network	Pvalue	Settings
+01 Neurons & fetal brain	4.20557944E-1	phs000007.pha001970.sum.genescores--01_neurons_fetal_brain.settings.txt

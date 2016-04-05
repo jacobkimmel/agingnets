@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# New-style PASCAL output converter to old-style output\n\ndata_file = '/Applications/PASCAL/output/GIANT_HEIGHT_Wood_et_al_2014_pvals.sum.genescores.chr22.txt'\nconvert_output <- function(dir, dataset){\n  \n  name <- paste(dir, dataset, sep = '')\n  df <- read.table(name, header = TRUE)\n  df$Status <- \"Simul\"\n  df$gene_id <- df$gene_symbol\n  \n  filename <- paste(\"converted_pascal/\", dataset, sep = '')\n  write.table(df, file = filename, quote = FALSE, sep = \"\\t\", row.names = FALSE)\n  \n}",
+    "created" : 1459816604768.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1908489321",
+    "id" : "CCD80452",
+    "lastKnownWriteTime" : 1459828424,
+    "last_content_update" : 1459828424614,
+    "path" : "~/Dropbox/Docs/Research/01 Verdin Lab/GWAS/Aging Gene Associations/PASCAL_output_converter.R",
+    "project_path" : "PASCAL_output_converter.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
