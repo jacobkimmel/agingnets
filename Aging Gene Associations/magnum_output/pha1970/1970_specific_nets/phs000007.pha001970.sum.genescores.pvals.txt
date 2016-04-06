@@ -1,0 +1,40 @@
+# GWAS = phs000007.pha001970.sum.genescores
+Network	Pvalue	Settings
+diencephalon, adult	6.66733327E-1	phs000007.pha001970.sum.genescores--diencephalon_adult.settings.txt
+putamen, adult	1.08689131E-1	phs000007.pha001970.sum.genescores--putamen_adult.settings.txt
+caudate nucleus, adult	1.32486751E-1	phs000007.pha001970.sum.genescores--caudate_nucleus_adult.settings.txt
+thalamus, adult	8.43415658E-1	phs000007.pha001970.sum.genescores--thalamus_adult.settings.txt
+globus pallidus, adult	1.95080492E-1	phs000007.pha001970.sum.genescores--globus_pallidus_adult.settings.txt
+amygdala, adult	5.01949805E-2	phs000007.pha001970.sum.genescores--amygdala_adult.settings.txt
+hippocampus, adult	4.14358564E-1	phs000007.pha001970.sum.genescores--hippocampus_adult.settings.txt
+parietal lobe, adult	6.15938406E-1	phs000007.pha001970.sum.genescores--parietal_lobe_adult.settings.txt
+medial frontal gyrus, adult	1.34286571E-1	phs000007.pha001970.sum.genescores--medial_frontal_gyrus_adult.settings.txt
+occipital cortex, adult	9.49505049E-1	phs000007.pha001970.sum.genescores--occipital_cortex_adult.settings.txt
+medial temporal gyrus	9.45105489E-1	phs000007.pha001970.sum.genescores--medial_temporal_gyrus.settings.txt
+cerebral meninges, adult	6.03539646E-1	phs000007.pha001970.sum.genescores--cerebral_meninges_adult.settings.txt
+medial temporal gyrus, adult	3.83761624E-1	phs000007.pha001970.sum.genescores--medial_temporal_gyrus_adult.settings.txt
+brain, adult	8.67513249E-1	phs000007.pha001970.sum.genescores--brain_adult.settings.txt
+occipital lobe, adult	3.97460254E-1	phs000007.pha001970.sum.genescores--occipital_lobe_adult.settings.txt
+olfactory region, adult	8.30416958E-1	phs000007.pha001970.sum.genescores--olfactory_region_adult.settings.txt
+paracentral gyrus, adult	8.87811219E-1	phs000007.pha001970.sum.genescores--paracentral_gyrus_adult.settings.txt
+nucleus accumbens, adult	7.71622838E-1	phs000007.pha001970.sum.genescores--nucleus_accumbens_adult.settings.txt
+insula, adult	7.21527847E-1	phs000007.pha001970.sum.genescores--insula_adult.settings.txt
+frontal lobe, adult	9.12208779E-1	phs000007.pha001970.sum.genescores--frontal_lobe_adult.settings.txt
+diaphragm, fetal	8.81911809E-1	phs000007.pha001970.sum.genescores--diaphragm_fetal.settings.txt
+occipital pole, adult	8.46915308E-1	phs000007.pha001970.sum.genescores--occipital_pole_adult.settings.txt
+temporal lobe, adult	5.16148385E-1	phs000007.pha001970.sum.genescores--temporal_lobe_adult.settings.txt
+postcentral gyrus, adult	5.76642336E-1	phs000007.pha001970.sum.genescores--postcentral_gyrus_adult.settings.txt
+skeletal muscle, fetal	6.26237376E-1	phs000007.pha001970.sum.genescores--skeletal_muscle_fetal.settings.txt
+skeletal muscle - soleus muscle	1.41085891E-1	phs000007.pha001970.sum.genescores--skeletal_muscle_-_soleus_muscle.settings.txt
+skeletal muscle, adult	9.25807419E-1	phs000007.pha001970.sum.genescores--skeletal_muscle_adult.settings.txt
+skin, fetal	2.28977102E-1	phs000007.pha001970.sum.genescores--skin_fetal.settings.txt
+umbilical cord, fetal	8.31116888E-1	phs000007.pha001970.sum.genescores--umbilical_cord_fetal.settings.txt
+throat, adult	2.95670433E-1	phs000007.pha001970.sum.genescores--throat_adult.settings.txt
+throat, fetal	2.49975002E-3	phs000007.pha001970.sum.genescores--throat_fetal.settings.txt
+trachea, adult	8.21017898E-1	phs000007.pha001970.sum.genescores--trachea_adult.settings.txt
+trachea, fetal	5.55544446E-1	phs000007.pha001970.sum.genescores--trachea_fetal.settings.txt
+tonsil, adult	8.00419958E-1	phs000007.pha001970.sum.genescores--tonsil_adult.settings.txt
+penis, adult	6.28237176E-1	phs000007.pha001970.sum.genescores--penis_adult.settings.txt
+esophagus, adult	7.20927907E-1	phs000007.pha001970.sum.genescores--esophagus_adult.settings.txt
+tongue, adult	1.97580242E-1	phs000007.pha001970.sum.genescores--tongue_adult.settings.txt
+tongue, fetal	4.20857914E-1	phs000007.pha001970.sum.genescores--tongue_fetal.settings.txt

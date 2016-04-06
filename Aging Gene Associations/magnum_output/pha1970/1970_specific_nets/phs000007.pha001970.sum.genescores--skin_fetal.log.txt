@@ -1,0 +1,66 @@
+Writing settings file...
+Writing file: /Users/ottlab/Jacob/magnum output/1970_specific_nets/phs000007.pha001970.sum.genescores--skin_fetal.settings.txt
+
+Starting job...
+
+SETTINGS FILE
+-------------
+
+- Loading settings file: /Users/ottlab/Jacob/magnum output/1970_specific_nets/phs000007.pha001970.sum.genescores--skin_fetal.settings.txt
+
+LOADING INPUT FILES
+-------------------
+
+Reading file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/converted_pascal/phs000007.pha001970.sum.genescores.txt
+- Excluding genes on X, Y chromosomes
+- Excluding HLA genes
+- 2876 genes not found in the annotation
+
+Reading file: /Users/ottlab/Jacob/Network_compendium/Tissue-specific_regulatory_networks_FANTOM5-v1/394_individual_networks/skin_fetal.txt.gz
+
+Loaded network with:
+- 14548 nodes
+- 711092 edges
+
+COMPUTING RANDOM-WALK KERNEL
+----------------------------
+
+Computing normalized Laplacian...
+Computing random-walk kernel:
+Step 1/4...
+Step 2/4...
+Step 3/4...
+Step 4/4...
+Writing file: /Users/ottlab/Jacob/magnum output/1970_specific_nets/network_kernels/skin_fetal_4stepKernel_alpha2.0_weighted.txt.gz
+Run time: 0h 10min 33s 207ms
+
+Loaded:
+- 8837 genes with both GWAS and network data
+
+COMPUTING ENRICHMENT
+--------------------
+
+- 10000 permutations
+- 100 bins for within-degree permutation
+- Excluding gene pairs with respective windows <1.0mb apart
+
+Computing enrichment curve for unpermuted list:
+|-------------- Progress --------------|
+*********************************************
+
+|-------------- Progress --------------|
+****************************************
+
+RESULTS
+-------
+
+Writing enrichment curves and AUCs ...
+Writing file: /Users/ottlab/Jacob/magnum output/1970_specific_nets/phs000007.pha001970.sum.genescores--skin_fetal.curves.txt.gz
+Writing file: /Users/ottlab/Jacob/magnum output/1970_specific_nets/phs000007.pha001970.sum.genescores--skin_fetal.AUC.txt.gz
+
+Enrichment score (empirical p-value):
+p = 2.28977102E-1
+
+Success!
+--------
+
