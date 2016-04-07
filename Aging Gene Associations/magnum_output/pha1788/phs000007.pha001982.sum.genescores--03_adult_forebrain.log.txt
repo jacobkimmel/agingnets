@@ -1,0 +1,32 @@
+Writing settings file...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1788/phs000007.pha001982.sum.genescores--03_adult_forebrain.settings.txt
+
+Starting job...
+
+SETTINGS FILE
+-------------
+
+- Loading settings file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1788/phs000007.pha001982.sum.genescores--03_adult_forebrain.settings.txt
+
+LOADING INPUT FILES
+-------------------
+
+Reading file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/converted_pascal/phs000007.pha001982.sum.genescores.txt
+- Excluding genes on X, Y chromosomes
+- Excluding HLA genes
+- 2877 genes not found in the annotation
+
+Reading file: /Users/ottlab/Jacob/Network_compendium/Tissue-specific_regulatory_networks_FANTOM5-v1/32_high-level_networks/03_adult_forebrain.txt.gz
+
+Loaded network with:
+- 16072 nodes
+- 2651961 edges
+
+COMPUTING RANDOM-WALK KERNEL
+----------------------------
+
+Computing normalized Laplacian...
+Computing random-walk kernel:
+Step 1/4...
+
+JOB INTERRUPTED!

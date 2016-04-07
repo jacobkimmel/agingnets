@@ -1,0 +1,65 @@
+Writing settings file...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1788/phs000007.pha001788.sum.genescores--10_lymphocytes.settings.txt
+
+Starting job...
+
+SETTINGS FILE
+-------------
+
+- Loading settings file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1788/phs000007.pha001788.sum.genescores--10_lymphocytes.settings.txt
+
+LOADING INPUT FILES
+-------------------
+
+Reading file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/converted_pascal/phs000007.pha001788.sum.genescores.txt
+- Excluding genes on X, Y chromosomes
+- Excluding HLA genes
+- 2877 genes not found in the annotation
+
+Reading file: /Users/ottlab/Jacob/Network_compendium/Tissue-specific_regulatory_networks_FANTOM5-v1/32_high-level_networks/10_lymphocytes.txt.gz
+
+Loaded network with:
+- 14089 nodes
+- 2301403 edges
+
+COMPUTING RANDOM-WALK KERNEL
+----------------------------
+
+Computing normalized Laplacian...
+Computing random-walk kernel:
+Step 1/4...
+Step 2/4...
+Step 3/4...
+Step 4/4...
+Run time: 0h 5min 49s 540ms
+
+Loaded:
+- 8464 genes with both GWAS and network data
+
+COMPUTING ENRICHMENT
+--------------------
+
+- 10000 permutations
+- 100 bins for within-degree permutation
+- Excluding gene pairs with respective windows <1.0mb apart
+
+Computing enrichment curve for unpermuted list:
+|-------------- Progress --------------|
+*******************************************
+
+|-------------- Progress --------------|
+****************************************
+
+RESULTS
+-------
+
+Writing enrichment curves and AUCs ...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1788/phs000007.pha001788.sum.genescores--10_lymphocytes.curves.txt.gz
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1788/phs000007.pha001788.sum.genescores--10_lymphocytes.AUC.txt.gz
+
+Enrichment score (empirical p-value):
+p = 3.74862514E-1
+
+Success!
+--------
+

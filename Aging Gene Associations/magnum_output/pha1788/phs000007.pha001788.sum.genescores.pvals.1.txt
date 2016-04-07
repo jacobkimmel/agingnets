@@ -1,0 +1,10 @@
+# GWAS = phs000007.pha001788.sum.genescores
+Network	Pvalue	Settings
+diencephalon, adult	1.36686331E-1	phs000007.pha001788.sum.genescores--diencephalon_adult.settings.txt
+putamen, adult	9.6590341E-2	phs000007.pha001788.sum.genescores--putamen_adult.settings.txt
+caudate nucleus, adult	9.06909309E-2	phs000007.pha001788.sum.genescores--caudate_nucleus_adult.settings.txt
+thalamus, adult	1.35286471E-1	phs000007.pha001788.sum.genescores--thalamus_adult.settings.txt
+globus pallidus, adult	1.46885311E-1	phs000007.pha001788.sum.genescores--globus_pallidus_adult.settings.txt
+amygdala, adult	1.70782922E-1	phs000007.pha001788.sum.genescores--amygdala_adult.settings.txt
+hippocampus, adult	1.91980802E-2	phs000007.pha001788.sum.genescores--hippocampus_adult.settings.txt
+parietal lobe, adult	1.45985401E-2	phs000007.pha001788.sum.genescores--parietal_lobe_adult.settings.txt

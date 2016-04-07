@@ -1,0 +1,65 @@
+Writing settings file...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1982/phs000007.pha001982.sum.genescores--02_nervous_system_adult_hindbrain.settings.txt
+
+Starting job...
+
+SETTINGS FILE
+-------------
+
+- Loading settings file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1982/phs000007.pha001982.sum.genescores--02_nervous_system_adult_hindbrain.settings.txt
+
+LOADING INPUT FILES
+-------------------
+
+Reading file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/converted_pascal/phs000007.pha001982.sum.genescores.txt
+- Excluding genes on X, Y chromosomes
+- Excluding HLA genes
+- 2877 genes not found in the annotation
+
+Reading file: /Users/ottlab/Jacob/Network_compendium/Tissue-specific_regulatory_networks_FANTOM5-v1/32_high-level_networks/02_nervous_system_adult_hindbrain.txt.gz
+
+Loaded network with:
+- 16005 nodes
+- 2596427 edges
+
+COMPUTING RANDOM-WALK KERNEL
+----------------------------
+
+Computing normalized Laplacian...
+Computing random-walk kernel:
+Step 1/4...
+Step 2/4...
+Step 3/4...
+Step 4/4...
+Run time: 0h 7min 34s 853ms
+
+Loaded:
+- 9740 genes with both GWAS and network data
+
+COMPUTING ENRICHMENT
+--------------------
+
+- 10000 permutations
+- 100 bins for within-degree permutation
+- Excluding gene pairs with respective windows <1.0mb apart
+
+Computing enrichment curve for unpermuted list:
+|-------------- Progress --------------|
+*************************************************
+
+|-------------- Progress --------------|
+****************************************
+
+RESULTS
+-------
+
+Writing enrichment curves and AUCs ...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1982/phs000007.pha001982.sum.genescores--02_nervous_system_adult_hindbrain.curves.txt.gz
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1982/phs000007.pha001982.sum.genescores--02_nervous_system_adult_hindbrain.AUC.txt.gz
+
+Enrichment score (empirical p-value):
+p = 3.47965203E-2
+
+Success!
+--------
+
