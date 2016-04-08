@@ -29,3 +29,6 @@ Network	Pvalue	Settings
 26 Neuron-associated cells & cancer	3.84561544E-1	phs000007.pha001986.sum.genescores--26_neuron-associated_cells_cancer.settings.txt
 28 Neuroectodermal tumors & sarcoma	1.87681232E-1	phs000007.pha001986.sum.genescores--28_neuroectodermal_tumors_sarcoma.settings.txt
 29 Epithelial cells	6.84931507E-1	phs000007.pha001986.sum.genescores--29_epithelial_cells.settings.txt
+30 Extraembryonic membrane	1.09489051E-1	phs000007.pha001986.sum.genescores--30_extraembryonic_membrane.settings.txt
+31 Epithelial cells of kidney & uterus	1.01589841E-1	phs000007.pha001986.sum.genescores--31_epithelial_cells_of_kidney_uterus.settings.txt
+32 lung epithelium & lung cancer	1.95380462E-1	phs000007.pha001986.sum.genescores--32_lung_epithelium_lung_cancer.settings.txt

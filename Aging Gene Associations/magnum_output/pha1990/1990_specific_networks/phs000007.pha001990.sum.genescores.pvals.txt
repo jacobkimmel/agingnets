@@ -1,0 +1,24 @@
+# GWAS = phs000007.pha001990.sum.genescores
+Network	Pvalue	Settings
+brain, fetal	6.85831417E-1	phs000007.pha001990.sum.genescores--brain_fetal.settings.txt
+parietal lobe, fetal	5.90140986E-1	phs000007.pha001990.sum.genescores--parietal_lobe_fetal.settings.txt
+Neural stem cells	5.72942706E-2	phs000007.pha001990.sum.genescores--neural_stem_cells.settings.txt
+Neurons	9.6490351E-1	phs000007.pha001990.sum.genescores--neurons.settings.txt
+temporal lobe, fetal	8.38316168E-1	phs000007.pha001990.sum.genescores--temporal_lobe_fetal.settings.txt
+occipital lobe, fetal	5.48845115E-1	phs000007.pha001990.sum.genescores--occipital_lobe_fetal.settings.txt
+keratoacanthoma cell line	9.7510249E-1	phs000007.pha001990.sum.genescores--keratoacanthoma_cell_line.settings.txt
+salivary acinar cells	7.69923008E-1	phs000007.pha001990.sum.genescores--salivary_acinar_cells.settings.txt
+Corneal Epithelial Cells	5.58644136E-1	phs000007.pha001990.sum.genescores--corneal_epithelial_cells.settings.txt
+cervical cancer cell line	3.97160284E-1	phs000007.pha001990.sum.genescores--cervical_cancer_cell_line.settings.txt
+nasal epithelial cells	1.52284772E-1	phs000007.pha001990.sum.genescores--nasal_epithelial_cells.settings.txt
+Esophageal Epithelial Cells	1.41085891E-1	phs000007.pha001990.sum.genescores--esophageal_epithelial_cells.settings.txt
+Keratinocyte - oral	1.88981102E-2	phs000007.pha001990.sum.genescores--keratinocyte_-_oral.settings.txt
+Bronchial Epithelial Cell	2.25777422E-1	phs000007.pha001990.sum.genescores--bronchial_epithelial_cell.settings.txt
+Urothelial Cells	5.13848615E-1	phs000007.pha001990.sum.genescores--urothelial_cells.settings.txt
+Tracheal Epithelial Cells	1.34486551E-1	phs000007.pha001990.sum.genescores--tracheal_epithelial_cells.settings.txt
+Small Airway Epithelial Cells	1.51784822E-1	phs000007.pha001990.sum.genescores--small_airway_epithelial_cells.settings.txt
+Mammary Epithelial Cell	1.41385861E-1	phs000007.pha001990.sum.genescores--mammary_epithelial_cell.settings.txt
+Gingival epithelial cells	4.38956104E-2	phs000007.pha001990.sum.genescores--gingival_epithelial_cells.settings.txt
+Mallassez-derived cells	2.67973203E-1	phs000007.pha001990.sum.genescores--mallassez-derived_cells.settings.txt
+Sebocyte	8.73912609E-2	phs000007.pha001990.sum.genescores--sebocyte.settings.txt
+Keratinocyte - epidermal	1.34686531E-1	phs000007.pha001990.sum.genescores--keratinocyte_-_epidermal.settings.txt
