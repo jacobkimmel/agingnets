@@ -3,8 +3,8 @@
 #
 # Example script demonstrating how the output files of the connectivity
 # enrichment analysis can be loaded and visualized.
-# (1) Load AUCs and compute p-values / scores (cf. Figs. 5,6 of the paper)
-# (2) Plot enrichment curves (cf. Fig. 5a of the paper)
+# (1) Load AUCs and compute p-values / scores (cf. S.Figs. 27,28 of the paper)
+# (2) Plot enrichment curves (cf. S.Fig. 28 of the paper)
 #
 # AUC : area under the curve  
 #
@@ -34,7 +34,8 @@ source("plot_functions.R")
 # - macular_degeneration_neovascular--smooth_muscle_cells_-_umbilical_vein_4stepKernel_alpha2.0_weighted.AUC.txt.gz
 # - macular_degeneration_neovascular--smooth_muscle_cells_-_umbilical_vein_4stepKernel_alpha2.0_weighted.txt.gz
 
-network_list <- c('01_neurons_fetal_brain', '02_nervous_system_adult_hindbrain',
+network_list <- c('01_neurons_fetal_brain', 
+  '02_nervous_system_adult_hindbrain',
   '03_adult_forebrain',
   '04_mesenchymal_mixed',
   '05_sarcoma',
@@ -67,13 +68,13 @@ network_list <- c('01_neurons_fetal_brain', '02_nervous_system_adult_hindbrain',
   '32_lung_epithelium_lung_cancer')
 
 # The name of the GWASs
-gwas <- "phs000007.pha001970.sum.genescores"
+gwas <- "phs000007.pha001788.sum.genescores"
 # The name of the kernels
 kernels <- network_list
 # The directory where result files are located (filenames are expected to be: 
 # <gwas>--<kernel>.txt.gz, which is how magnum names the result files). Here we assume
 # that the result files are located in the parent directory of the R working directory.
-dir <- "magnum_output/pha1970"
+dir <- "magnum_output/pha1788"
 
 
 # -----------------------------------------------------------------------------
@@ -84,7 +85,7 @@ aucs <- loadAllAUCs(dir=dir, gwas=gwas, kernels=kernels, numPermut=10000, k=2, l
 # Compute empirical p-values
 pvals <- computeEnrichmentPvals(aucs)
 # Benjamini-Hochberg correction
-#pvals <- fdrCorrection(pvals)
+pvals <- fdrCorrection(pvals)
 # Compute scores
 scores <- -log10(pvals)
 

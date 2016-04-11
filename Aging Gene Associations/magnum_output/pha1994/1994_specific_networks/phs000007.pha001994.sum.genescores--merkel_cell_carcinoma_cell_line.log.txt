@@ -1,0 +1,65 @@
+Writing settings file...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1994/1994_specific_networks/phs000007.pha001994.sum.genescores--merkel_cell_carcinoma_cell_line.settings.txt
+
+Starting job...
+
+SETTINGS FILE
+-------------
+
+- Loading settings file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1994/1994_specific_networks/phs000007.pha001994.sum.genescores--merkel_cell_carcinoma_cell_line.settings.txt
+
+LOADING INPUT FILES
+-------------------
+
+Reading file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/converted_pascal/phs000007.pha001994.sum.genescores.txt
+- Excluding genes on X, Y chromosomes
+- Excluding HLA genes
+- 2877 genes not found in the annotation
+
+Reading file: /Users/ottlab/Jacob/Network_compendium/Tissue-specific_regulatory_networks_FANTOM5-v1/394_individual_networks/merkel_cell_carcinoma_cell_line.txt.gz
+
+Loaded network with:
+- 12937 nodes
+- 871241 edges
+
+COMPUTING RANDOM-WALK KERNEL
+----------------------------
+
+Computing normalized Laplacian...
+Computing random-walk kernel:
+Step 1/4...
+Step 2/4...
+Step 3/4...
+Step 4/4...
+Run time: 0h 2min 11s 288ms
+
+Loaded:
+- 7762 genes with both GWAS and network data
+
+COMPUTING ENRICHMENT
+--------------------
+
+- 10000 permutations
+- 100 bins for within-degree permutation
+- Excluding gene pairs with respective windows <1.0mb apart
+
+Computing enrichment curve for unpermuted list:
+|-------------- Progress --------------|
+****************************************************
+
+|-------------- Progress --------------|
+****************************************
+
+RESULTS
+-------
+
+Writing enrichment curves and AUCs ...
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1994/1994_specific_networks/phs000007.pha001994.sum.genescores--merkel_cell_carcinoma_cell_line.curves.txt.gz
+Writing file: /Users/ottlab/Jacob/agingnets/Aging Gene Associations/magnum_output/pha1994/1994_specific_networks/phs000007.pha001994.sum.genescores--merkel_cell_carcinoma_cell_line.AUC.txt.gz
+
+Enrichment score (empirical p-value):
+p = 7.99920008E-4
+
+Success!
+--------
+

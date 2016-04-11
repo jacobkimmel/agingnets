@@ -1,0 +1,27 @@
+# GWAS = phs000007.pha001754.sum.genescores
+Network	Pvalue	Settings
+Hepatic Sinusoidal Endothelial Cells	1.59884012E-1	phs000007.pha001754.sum.genescores--hepatic_sinusoidal_endothelial_cells.settings.txt
+Endothelial Cells - Lymphatic	2.50374963E-1	phs000007.pha001754.sum.genescores--endothelial_cells_-_lymphatic.settings.txt
+Endothelial Cells - Microvascular	5.19948005E-3	phs000007.pha001754.sum.genescores--endothelial_cells_-_microvascular.settings.txt
+Renal Glomerular Endothelial Cells	7.06929307E-2	phs000007.pha001754.sum.genescores--renal_glomerular_endothelial_cells.settings.txt
+Endothelial Cells - Thoracic	3.76162384E-1	phs000007.pha001754.sum.genescores--endothelial_cells_-_thoracic.settings.txt
+Endothelial Cells - Vein	1.41985801E-2	phs000007.pha001754.sum.genescores--endothelial_cells_-_vein.settings.txt
+Endothelial Cells - Umbilical vein	2.67473253E-1	phs000007.pha001754.sum.genescores--endothelial_cells_-_umbilical_vein.settings.txt
+Endothelial Cells - Artery	4.92950705E-2	phs000007.pha001754.sum.genescores--endothelial_cells_-_artery.settings.txt
+Endothelial Cells - Aortic	1.71182882E-1	phs000007.pha001754.sum.genescores--endothelial_cells_-_aortic.settings.txt
+mesenchymal precursor cell - ovarian cancer metastasis	5.68843116E-1	phs000007.pha001754.sum.genescores--mesenchymal_precursor_cell_-_ovarian_cancer_metastasis.settings.txt
+mesenchymal precursor cell - ovarian cancer left ovary	1.18588141E-1	phs000007.pha001754.sum.genescores--mesenchymal_precursor_cell_-_ovarian_cancer_left_ovary.settings.txt
+mesenchymal precursor cell - ovarian cancer right ovary	9.6090391E-2	phs000007.pha001754.sum.genescores--mesenchymal_precursor_cell_-_ovarian_cancer_right_ovary.settings.txt
+mesenchymal precursor cell - bone marrow	2.29577042E-1	phs000007.pha001754.sum.genescores--mesenchymal_precursor_cell_-_bone_marrow.settings.txt
+leiomyoma cell line	8.45315468E-1	phs000007.pha001754.sum.genescores--leiomyoma_cell_line.settings.txt
+mesenchymal precursor cell - adipose	3.41965803E-2	phs000007.pha001754.sum.genescores--mesenchymal_precursor_cell_-_adipose.settings.txt
+mesenchymal precursor cell - cardiac	8.22917708E-2	phs000007.pha001754.sum.genescores--mesenchymal_precursor_cell_-_cardiac.settings.txt
+Mesothelial Cells	7.35826417E-1	phs000007.pha001754.sum.genescores--mesothelial_cells.settings.txt
+Smooth Muscle Cells - Aortic	3.69963004E-2	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_aortic.settings.txt
+Smooth Muscle Cells - Umbilical Artery	4.49955004E-3	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_umbilical_artery.settings.txt
+Fibroblast - Cardiac	7.11928807E-2	phs000007.pha001754.sum.genescores--fibroblast_-_cardiac.settings.txt
+Smooth Muscle Cells - Subclavian Artery	8.15918408E-2	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_subclavian_artery.settings.txt
+Smooth Muscle Cells - Carotid	6.72132787E-1	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_carotid.settings.txt
+Smooth Muscle Cells - Internal Thoracic Artery	1.81381862E-1	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_internal_thoracic_artery.settings.txt
+Smooth Muscle Cells - Coronary Artery	3.48965103E-2	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_coronary_artery.settings.txt
+Smooth Muscle Cells - Brachiocephalic	1.53484652E-1	phs000007.pha001754.sum.genescores--smooth_muscle_cells_-_brachiocephalic.settings.txt
