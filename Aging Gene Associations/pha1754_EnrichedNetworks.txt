@@ -1,0 +1,4 @@
+06 Endothelial cells
+07 Mesenchymal stem & smooth muscle cells
+11 Myeloid leukocytes
+03 Adult forebrain
