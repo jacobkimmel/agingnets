@@ -1,4 +1,5 @@
 library(stringr)
+library(ggplot2)
 
 # Import a single Pascal pathway analysis output
 # Plots p-values on a histogram and exports sig. enriched
